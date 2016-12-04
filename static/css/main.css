@@ -31,6 +31,43 @@ a:hover, .item a:hover, .medium a:hover, a:hover figcaption {
 	transition: color 0.25s ease-in-out;
 }
 
+noscript, .noscript {
+	border: 0.3em solid red;
+	
+	display: inline;
+	padding: 8px;
+
+	font: 1em/1.5em Helvetica, Arial;
+	color: red;
+	letter-spacing: 1px;
+	background: yellow; 
+	
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	-moz-animation: glowIt 2s infinite;
+	animation: glowIt 2s infinite;
+}
+
+@keyframes glowIt {
+	0% { 
+		background-color: yellow; 
+		box-shadow: 0 0 9px yellow; 
+	}
+	50% { 
+		background-color: red; 
+		box-shadow: 0 0 18px red; 
+	}
+	100% { 
+		background-color: white; 
+		box-shadow: 0 0 9px red; }
+}
+
+@-moz-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
 #wrapper {
 	flex: 1;
 }
