@@ -20,6 +20,10 @@ $doctype 5
         <div class="left">
           <a href=@{AboutR} target="_blank">
             About Eidolon
+          <!--
+            <a href=@{AboutJS} data-jslicense="1">
+                JavaScript license information
+            -->
         <div class="right">
           $case route
             $of Just HomeR
