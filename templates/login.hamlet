@@ -16,5 +16,5 @@ $newline always
   <a href=@{ReactivateR}>Forgot your Password?
 
   <script src="/static/js/jquery.min.js" type="text/javascript">
-  <!--<script src="/static/js/jsSHA.js" type="text/javascript">-->
+  <!--<script src="/static/js/jsSHA.min.js" type="text/javascript">-->
   <script src="/static/js/purs_login.js" type="text/javascript">
